@@ -1,0 +1,10 @@
+Started on Jan 13, 2020 12:30:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 5fc7ed81e1cd3f40876ceac27410c9fcb711696f (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/jayaprakashvikas/mavenprojects.git # timeout=10
+Found 1 remote heads on https://github.com/jayaprakashvikas/mavenprojects.git
+[poll] Latest remote head revision on refs/heads/master is: b01b97e55733b1e9e3bb8b22582b7f36c7b7ad08
+Done. Took 0.61 sec
+Changes found

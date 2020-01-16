@@ -1,0 +1,31 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4KvQyqzDlJweRXclyRKoAEQypfupR3+RMGaUClRAaaOJAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eT4xPTUvBIAEy+k7cYAAAA=[0mc_agent (c_env) in workspace /home/ec2-user/prodfile/workspace/c_project1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jayaprakashvikas/buildtraining.git
+ > git init /home/ec2-user/prodfile/workspace/c_project1 # timeout=10
+Fetching upstream changes from https://github.com/jayaprakashvikas/buildtraining.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/jayaprakashvikas/buildtraining.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jayaprakashvikas/buildtraining.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jayaprakashvikas/buildtraining.git # timeout=10
+Fetching upstream changes from https://github.com/jayaprakashvikas/buildtraining.git
+ > git fetch --tags --progress -- https://github.com/jayaprakashvikas/buildtraining.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ed8232afdc26b5ee02dec1bba6da828774cc1914 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ed8232afdc26b5ee02dec1bba6da828774cc1914 # timeout=10
+Commit message: "removed"
+ > git rev-list --no-walk ed8232afdc26b5ee02dec1bba6da828774cc1914 # timeout=10
+[c_project1] $ /bin/bash /tmp/jenkins7903668935269899067.sh
+gcc -c main.c
+gcc -c bigof2.c
+gcc -c palindrome.c
+gcc -c fact.c
+gcc -c addnum.c
+gcc -c smallof3.c
+gcc -o app1.exe main.o bigof2.o palindrome.o fact.o addnum.o smallof3.o
+Finished: SUCCESS

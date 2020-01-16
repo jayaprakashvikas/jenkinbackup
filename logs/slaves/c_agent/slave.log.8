@@ -1,0 +1,25 @@
+SSHLauncher{host='3.6.94.244', port=22, credentialsId='ec2-node-credentials', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=210, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.ManuallyTrustedKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[01/16/20 05:47:27] [SSH] Opening SSH connection to 3.6.94.244:22.
+[01/16/20 05:47:27] [SSH] WARNING: The SSH key for this host is not currently trusted. Connections will be denied until this new key is authorised.
+Key exchange was not finished, connection is closed.
+java.io.IOException: There was a problem while connecting to 3.6.94.244:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:760)
+	at hudson.plugins.sshslaves.SSHLauncher.openConnection(SSHLauncher.java:823)
+	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:425)
+	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:412)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Key exchange was not finished, connection is closed.
+	at com.trilead.ssh2.transport.KexManager.getOrWaitForConnectionInfo(KexManager.java:95)
+	at com.trilead.ssh2.transport.TransportManager.getConnectionInfo(TransportManager.java:237)
+	at com.trilead.ssh2.Connection.connect(Connection.java:711)
+	... 7 more
+Caused by: java.io.IOException: The server hostkey was not accepted by the verifier callback
+	at com.trilead.ssh2.transport.KexManager.handleMessage(KexManager.java:548)
+	at com.trilead.ssh2.transport.TransportManager.receiveLoop(TransportManager.java:790)
+	at com.trilead.ssh2.transport.TransportManager$1.run(TransportManager.java:502)
+	... 1 more
+[01/16/20 05:47:27] Launch failed - cleaning up connection
+[01/16/20 05:47:27] [SSH] Connection closed.

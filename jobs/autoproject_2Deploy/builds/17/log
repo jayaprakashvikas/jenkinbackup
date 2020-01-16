@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4PbyB8FH58zz9HwV5dF9z0FKB20dMk8S0rge0Vy8hHVGAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP3E0pL8gqL8rNTkknhDp9LMnBR9ALfZ4VLNAAAA[0mautoproject_1Build" build number [8mha:////4K2l1z491ae1HQWzRbhjP85V9/YJsF3XPciszbjAYg9eAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkn9rPwk/cTSkvyCovys1OSSeEOn0sycFH1jAJMJWPzOAAAA[0m3
+originally caused by:
+ Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4PLYyqbwVj46olzwcIg4vz16KduVbxpJUqSRivmxuDBtAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYR/eT83ILSktQifZBh8YnpqXklAIdX1B3JAAAA[0mjava_agent (java_env) in workspace /home/ec2-user/jprodfile/workspace/autoproject_2Deploy
+[autoproject_2Deploy] $ /bin/sh -xe /tmp/jenkins7068156286300274472.sh
++ cp /home/ec2-user/jprodfile/workspace/autoproject_1Build/target/samplewebapp.war /home/ec2-user/jprodfile/workspace/autoproject_2Deploy
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /home/ec2-user/jprodfile/workspace/autoproject_2Deploy/samplewebapp.war to container Tomcat 7.x Remote with context null
+  [/home/ec2-user/jprodfile/workspace/autoproject_2Deploy/samplewebapp.war] is not deployed. Doing a fresh deployment.
+  Deploying [/home/ec2-user/jprodfile/workspace/autoproject_2Deploy/samplewebapp.war]
+Finished: SUCCESS

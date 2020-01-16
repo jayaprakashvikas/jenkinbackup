@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>50</queueId>
+  <timestamp>1578983076734</timestamp>
+  <startTime>1578983076736</startTime>
+  <result>FAILURE</result>
+  <duration>48</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>java_agent</builtOn>
+  <workspace>/home/ec2-user/jprodfile/workspace/autoproject_2Deploy</workspace>
+  <hudsonVersion>2.204.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

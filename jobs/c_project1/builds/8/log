@@ -1,0 +1,24 @@
+Started by user [8mha:////4K4F48oWWNJvtilbJJeN0o4l9HS5cTSks6XyEVYVBhNjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZu/dLi1CL9sszsxGIA1rAXT8AAAAA=[0mjayaprakash
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c_project1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jayaprakashvikas/buildtraining.git # timeout=10
+Fetching upstream changes from https://github.com/jayaprakashvikas/buildtraining.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/jayaprakashvikas/buildtraining.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ed8232afdc26b5ee02dec1bba6da828774cc1914 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ed8232afdc26b5ee02dec1bba6da828774cc1914 # timeout=10
+Commit message: "removed"
+ > git rev-list --no-walk ed8232afdc26b5ee02dec1bba6da828774cc1914 # timeout=10
+[c_project1] $ /bin/sh -xe /tmp/jenkins97179994640532116.sh
++ make app1.exe
+make: 'app1.exe' is up to date.
++ cp app1.exe /home/ec2-user/new
+cp: failed to access '/home/ec2-user/new': Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,27 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4KvQyqzDlJweRXclyRKoAEQypfupR3+RMGaUClRAaaOJAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eT4xPTUvBIAEy+k7cYAAAA=[0mc_agent (c_env) in workspace /home/ec2-user/prodfile/workspace/java_project1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jayaprakashvikas/mavenprojects.git
+ > git init /home/ec2-user/prodfile/workspace/java_project1 # timeout=10
+Fetching upstream changes from https://github.com/jayaprakashvikas/mavenprojects.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/jayaprakashvikas/mavenprojects.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jayaprakashvikas/mavenprojects.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jayaprakashvikas/mavenprojects.git # timeout=10
+Fetching upstream changes from https://github.com/jayaprakashvikas/mavenprojects.git
+ > git fetch --tags --progress -- https://github.com/jayaprakashvikas/mavenprojects.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b0cbcf7ca64c0c68820df693d2d7e74ff81094b0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b0cbcf7ca64c0c68820df693d2d7e74ff81094b0 # timeout=10
+Commit message: "commiting src and pom file"
+First time build. Skipping changelog.
+[java_project1] $ /bin/sh -xe /tmp/jenkins6637065832392314502.sh
++ mvn install
+/tmp/jenkins6637065832392314502.sh: line 2: mvn: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,27 @@
+commit 5fc7ed81e1cd3f40876ceac27410c9fcb711696f
+tree ab10f34ce3160841fec2a72e64e14a85affb8b11
+parent 5bf449bb261758a8246a8f291a275b99e23c4565
+author jayaprakashvikas <54756733+jayaprakashvikas@users.noreply.github.com> 2020-01-13 15:18:51 +0530
+committer GitHub <noreply@github.com> 2020-01-13 15:18:51 +0530
+
+    unwanted
+
+:100644 000000 6f07b72e67efb3318bc3f0ca721f926dad79f823 0000000000000000000000000000000000000000 D	samplewebapp/src/main/webapp/index.jsp
+commit 5bf449bb261758a8246a8f291a275b99e23c4565
+tree 94ad8aef2781f9b139fbdd6f5324e16539881b1c
+parent 08aee3403db85307dc177b913286d6f8ae945206
+author jayaprakashvikas <54756733+jayaprakashvikas@users.noreply.github.com> 2020-01-13 15:18:29 +0530
+committer GitHub <noreply@github.com> 2020-01-13 15:18:29 +0530
+
+    de
+
+:100644 000000 04563ea82dcec51e2680573277061fb4cd655f49 0000000000000000000000000000000000000000 D	samplewebapp/src/main/webapp/WEB-INF/web.xml
+commit 08aee3403db85307dc177b913286d6f8ae945206
+tree b181d4716dc62da65c7ada6c6379fcaf7e957bc8
+parent b0cbcf7ca64c0c68820df693d2d7e74ff81094b0
+author jayaprakashvikas <54756733+jayaprakashvikas@users.noreply.github.com> 2020-01-13 15:18:04 +0530
+committer GitHub <noreply@github.com> 2020-01-13 15:18:04 +0530
+
+    delete pom
+
+:100644 000000 99e3c70a71e3a123fe2fdc841856c57aeefed7b7 0000000000000000000000000000000000000000 D	samplewebapp/pom.xml

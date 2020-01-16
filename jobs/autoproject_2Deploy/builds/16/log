@@ -1,0 +1,10 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4PLYyqbwVj46olzwcIg4vz16KduVbxpJUqSRivmxuDBtAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYR/eT83ILSktQifZBh8YnpqXklAIdX1B3JAAAA[0mjava_agent (java_env) in workspace /home/ec2-user/jprodfile/workspace/autoproject_2Deploy
+[autoproject_2Deploy] $ /bin/sh -xe /tmp/jenkins4079468604853131342.sh
++ cp /home/ec2-user/jprodfile/workspace/autoproject_1Build/target/samplewebapp.war /home/ec2-user/jprodfile/workspace/autoproject_2Deploy
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /home/ec2-user/jprodfile/workspace/autoproject_2Deploy/samplewebapp.war to container Tomcat 7.x Remote with context null
+  [/home/ec2-user/jprodfile/workspace/autoproject_2Deploy/samplewebapp.war] is not deployed. Doing a fresh deployment.
+  Deploying [/home/ec2-user/jprodfile/workspace/autoproject_2Deploy/samplewebapp.war]
+Finished: SUCCESS

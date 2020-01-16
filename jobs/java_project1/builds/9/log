@@ -1,0 +1,8 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4PLYyqbwVj46olzwcIg4vz16KduVbxpJUqSRivmxuDBtAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYR/eT83ILSktQifZBh8YnpqXklAIdX1B3JAAAA[0mjava_agent (java_env) in workspace /home/ec2-user/jprodfile/workspace/java_project1
+Installing JDK jdk-9.0.4-oth-JPR
+Downloading JDK from https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_linux-x64_bin.tar.gz
+[8mha:////4IDcl49pKshbU34pTQPofhBKjuLhQl8gx5XEGFx6AHK1AAAAsh+LCAAAAAAAAP9djDEOgkAQRUeMHsDSeAa2syE0YiFKaDzBBiaIjrub2cFA5R28hjYewuN4BzFY+Zv/mvceb5h4hsWhKb01YWGNt4ThpnPIVJtTbgWX8f0Z39wrgCCFKaGp5JDBuGESmGVHfdGKtKnUXrg2VdQyzP9yyfDfGAwbBQCt6+EqEKkSfcG1E8urLtdnVD9frCUfbte71HjRRMgKjSAnjGUPtaYPq19LNcAAAAA=[0mOracle now requires Oracle account to download previous versions of JDK. Please specify your Oracle account username/password.
+ERROR: Unable to install JDK unless a valid Oracle account username/password is provided in the system configuration.
+Finished: FAILURE
